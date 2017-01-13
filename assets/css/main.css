@@ -1474,6 +1474,16 @@ section.wrapper article header, article.wrapper article header {
   margin: 0;
 }
 
+/*.bio header .title {
+	float: left;
+}
+*/
+section.wrapper.bio img {
+	float: left;
+	margin: 0 20px 20px 0px;
+	height: 151px;
+	width: 151px;
+}
 
 
 section.wrapper.people-summary, article.wrapper.people-summary {
@@ -1588,7 +1598,6 @@ section.wrapper.justin, article.wrapper.justin {
   section.wrapper.justin a {
     background-color: #00AAAA;
   }
-
 
 
 @media screen and (max-width: 980px) {
@@ -2577,7 +2586,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   padding: 12em 0 10em 0;
   background-image: url('../../images/carrier1.jpg');
   background-size: cover;
-  background-position: 0 -200px;
+  background-position: 0 -65px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
