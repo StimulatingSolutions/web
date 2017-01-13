@@ -1474,22 +1474,122 @@ section.wrapper article header, article.wrapper article header {
   margin: 0;
 }
 
-section.wrapper.style1, article.wrapper.style1 {
+
+
+section.wrapper.people-summary, article.wrapper.people-summary {
   background: #5385c1;
   color: #bacee6;
 }
+  section.wrapper.people-summary header h2, article.wrapper.people-summary header h2 {
+    color: #fff;
+  }
+  section.wrapper.people-summary header p, article.wrapper.people-summary header p {
+    color: #bacee6;
+  }
+  section.wrapper.people-summary h3, article.wrapper.people-summary h3 {
+    color: #FFF;
+  }
 
-section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
-  color: #fff;
-}
 
-section.wrapper.style1 header p, article.wrapper.style1 header p {
+
+
+
+section.wrapper.dan, article.wrapper.dan {
+  background: #772222;
   color: #bacee6;
 }
+  section.wrapper.dan header h2, article.wrapper.dan header h2 {
+    color: #fff;
+  }
+  section.wrapper.dan header p, article.wrapper.dan header p {
+    color: #bacee6;
+  }
+  section.wrapper.dan h3, article.wrapper.dan h3 {
+    color: #FFF;
+  }
+  section.wrapper.dan a {
+    background-color: #AA0000;
+  }
 
-section.wrapper.style1 h3, article.wrapper.style1 h3 {
-  color: #FFF;
+
+
+
+section.wrapper.joe, article.wrapper.joe {
+  background: #227722;
+  color: #bacee6;
 }
+  section.wrapper.joe header h2, article.wrapper.joe header h2 {
+    color: #fff;
+  }
+  section.wrapper.joe header p, article.wrapper.joe header p {
+    color: #bacee6;
+  }
+  section.wrapper.joe h3, article.wrapper.joe h3 {
+    color: #FFF;
+  }
+  section.wrapper.joe a {
+    background-color: #00AA00;
+  }
+
+
+
+section.wrapper.nick, article.wrapper.nick {
+  background: #111177;
+  color: #bacee6;
+}
+  section.wrapper.nick header h2, article.wrapper.nick header h2 {
+    color: #fff;
+  }
+  section.wrapper.nick header p, article.wrapper.nick header p {
+    color: #bacee6;
+  }
+  section.wrapper.nick h3, article.wrapper.nick h3 {
+    color: #FFF;
+  }
+  section.wrapper.nick a {
+    background-color: #0000AA;
+  }
+
+
+
+
+section.wrapper.jesse, article.wrapper.jesse {
+  background: #777711;
+  color: #bacee6;
+}
+  section.wrapper.jesse header h2, article.wrapper.jesse header h2 {
+    color: #fff;
+  }
+  section.wrapper.jesse header p, article.wrapper.jesse header p {
+    color: #bacee6;
+  }
+  section.wrapper.jesse h3, article.wrapper.jesse h3 {
+    color: #FFF;
+  }
+  section.wrapper.jesse a {
+    background-color: #AAAA00;
+  }
+
+
+
+section.wrapper.justin, article.wrapper.justin {
+  background: #117777;
+  color: #bacee6;
+}
+  section.wrapper.justin header h2, article.wrapper.justin header h2 {
+    color: #fff;
+  }
+  section.wrapper.justin header p, article.wrapper.justin header p {
+    color: #bacee6;
+  }
+  section.wrapper.justin h3, article.wrapper.justin h3 {
+    color: #FFF;
+  }
+  section.wrapper.justin a {
+    background-color: #00AAAA;
+  }
+
+
 
 @media screen and (max-width: 980px) {
   section.wrapper, article.wrapper {
@@ -1825,6 +1925,7 @@ input[type="radio"]+label:before {
 .box.person {
   border: solid 1px rgba(255, 255, 255, 0.25);
   padding: 3em 1.5em;
+  cursor: pointer;
 }
 
 .box.person h3 {
