@@ -2386,14 +2386,15 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 #header {
   color: #d4e0ef;
   cursor: default;
-  height: 3.25em;
   left: 0;
   line-height: 3.25em;
-  position: absolute;
+  position: fixed;
   text-align: right;
-  top: 4em;
+  padding-top: 4em;
   width: 100%;
   z-index: 10001;
+  transition: background-color 300ms;
+  -webkit-transition: background-color 300ms;
 }
 
 #header .inner {
