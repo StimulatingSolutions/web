@@ -2583,7 +2583,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 /* Banner */
 
 #banner {
-  padding: 12em 0 10em 0;
+  padding: 12em 0 14em 0;
   background-image: url('../../images/carrier1.jpg');
   background-size: cover;
   background-position: 0 -65px;
