@@ -39,15 +39,18 @@
 
     $(document).ready(function() {
       //init scrolling event heandler
-      $(document).scroll(function(){
+      $(document).scroll(_.debounce(function(){
         var docScroll = $(document).scrollTop();
-        console.log(docScroll);
-        if(docScroll >= 400 ) {
-          $("#header").css('background-color', '#5385c1');
+        var banner = $('#banner');
+        var header = $('#header');
+        var bannerBottom = banner.scrollTop() + banner.outerHeight() - header.outerHeight();
+        // console.log(docScroll, banner.scrollTop(), banner.outerHeight(), header.outerHeight());
+        if(docScroll >= bannerBottom ) {
+          $("#header").addClass('opaque');
         } else {
-         $("#header").css('background-color', 'transparent');
+          $("#header").removeClass('opaque');
         }
-      });
+      }, 25));
     });
 
   // Off-Canvas Navigation.

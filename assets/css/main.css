@@ -3,9 +3,9 @@
 @import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
 
 /*
-	Theory by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+  Theory by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
 
@@ -1475,14 +1475,14 @@ section.wrapper article header, article.wrapper article header {
 }
 
 /*.bio header .title {
-	float: left;
+  float: left;
 }
 */
 section.wrapper.bio img {
-	float: left;
-	margin: 0 20px 20px 0px;
-	height: 151px;
-	width: 151px;
+  float: left;
+  margin: 0 20px 20px 0px;
+  height: 151px;
+  width: 151px;
 }
 
 
@@ -2390,11 +2390,19 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   line-height: 3.25em;
   position: fixed;
   text-align: right;
-  padding-top: 4em;
+  /*padding-top: 4em;*/
   width: 100%;
   z-index: 10001;
-  transition: background-color 300ms;
-  -webkit-transition: background-color 300ms;
+  transition: background-color 300ms, border-bottom 300ms;
+  -webkit-transition: background-color 300ms, border-bottom 300ms;
+  -moz-transition: background-color 300ms, border-bottom 300ms;
+  -o-transition: background-color 300ms, border-bottom 300ms;
+}
+
+#header.opaque {
+  background-color: #5385c1;
+  border-bottom: 1px solid #888;
+  /*box-shadow: 0 2px 10px #222;*/
 }
 
 #header .inner {
@@ -2462,7 +2470,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 @media screen and (max-width: 980px) {
   #header {
-    top: 3em;
+    /*top: 3em;*/
+    padding-top: 0;
     height: 44px;
     line-height: 44px;
   }
@@ -2470,13 +2479,14 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 @media screen and (max-width: 736px) {
   #header {
-    top: 2em;
+    /*top: 2em;*/
+    padding-top: 0;
   }
 }
 
 @media screen and (max-width: 480px) {
   #header {
-    top: 1em;
+    /*top: 1em;*/
     min-width: 320px;
   }
 }
@@ -2591,7 +2601,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
-  border-top: 0.5em solid #5385c1;
+  /*border-top: 0.5em solid #5385c1;*/
 }
 
 #banner h1 {
@@ -2611,7 +2621,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   #banner {
-    background-attachment: scroll;
+    /*background-attachment: scroll;*/
   }
 }
 
@@ -2623,7 +2633,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 @media screen and (max-width: 980px) {
   #banner {
-    background-attachment: scroll;
+    /*background-attachment: scroll;*/
   }
 }
 
