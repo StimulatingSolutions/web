@@ -74,6 +74,13 @@
         $('#navPanel')
           .css('transition', 'none');
 
+    scrollToId = function(toId) {
+      target = $(toId);
+      $('html, body').stop().animate({
+         scrollTop: target.offset().top
+      }, 800);
+    }
+
   });
 
 })(jQuery);
