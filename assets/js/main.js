@@ -39,7 +39,7 @@
 
     $(document).ready(function() {
       //init scrolling event heandler
-      $(document).scroll(_.debounce(function(){
+      $(document).scroll(_.throttle(function(){
         var docScroll = $(document).scrollTop();
         var banner = $('#banner');
         var header = $('#header');
@@ -50,7 +50,7 @@
         } else {
           $("#header").removeClass('opaque');
         }
-      }, 25));
+      }, 50));
     });
 
   // Off-Canvas Navigation.
