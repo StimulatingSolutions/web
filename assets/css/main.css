@@ -2390,7 +2390,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   line-height: 3.25em;
   position: fixed;
   text-align: right;
-  padding-top: 4em;
+  padding-top: 0.5em;
   width: 100%;
   z-index: 10001;
   transition: background-color 300ms;
