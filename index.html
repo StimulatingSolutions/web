@@ -10,6 +10,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/smoothScroll.js"></script>
   </head>
   <body>
 
@@ -18,9 +20,10 @@
         <div class="inner">
           <a href="index.html" class="logo">Zero to Launch</a>
           <nav id="nav">
-            <a href="#team">The Team</a>
-            <a href="#people">The People</a>
-            <a href="#contact">Contact Us</a>
+            <span onclick="scrollToId('#team')">The Team</span>
+            <span onclick="scrollToId('#people')">The People</span>
+            <span onclick="scrollToId('#contact')">Contact Us</span>
+
           </nav>
           <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
         </div>
@@ -33,8 +36,7 @@
       </section>
 
     <!-- Team -->
-      <a name="team"></a>
-      <section id="one" class="wrapper">
+      <section id="team" class="wrapper">
         <div class="inner">
           <div class="flex flex-3">
             <article>
@@ -49,43 +51,42 @@
 
 
     <!-- Thumbs -->
-      <a name="people"></a>
-      <section id="thumbs" class="wrapper people-summary special">
+      <section id="people" class="wrapper people-summary special">
         <div class="inner">
           <header>
             <h2>Our Team</h2>
             <p>Meet our awesome collaboration of hackers.</p>
           </header>
           <div class="flex flex-4">
-            <div class="box person" onclick="location.href='#';location.href='#dan-section'">
+            <div class="box person" onclick="scrollToId('#dan-section')">
               <div class="image round">
                 <img src="images/dan.jpg" alt="Dan" />
               </div>
               <h3 class="card-name">Dan</h3>
               <p>Swiss Army Knife</p>
             </div>
-            <div class="box person" onclick="location.href='#';location.href='#joe-section'">
+            <div class="box person" onclick="scrollToId('#joe-section')">
               <div class="image round">
                 <img src="images/joe.jpg" alt="Joe" />
               </div>
               <h3 class="card-name">Joe</h3>
               <p>Leader<br/>Mentor<br/>Coder</p>
             </div>
-            <div class="box person" onclick="location.href='#';location.href='#jesse-section'">
+            <div class="box person" onclick="scrollToId('#jesse-section')">
               <div class="image round">
                 <img src="images/jesse1.png" alt="Jesse" />
               </div>
               <h3 class="card-name">Jesse</h3>
               <p>Prototyper<br/>Strategist</p>
             </div>
-            <div class="box person gravatar" onclick="location.href='#';location.href='#nick-section'">
+            <div class="box person gravatar" onclick="scrollToId('#nick-section')">
               <div class="image round">
                 <img src="https://docs.google.com/uc?id=0B3qb_Ex49jJ3aFJsR2I1cWs0c0k" alt="Nick" />
               </div>
               <h3 class="card-name">Nick</h3>
               <p>Creator<br/>Hacker<br/>Open Source Advocate</p>
             </div>
-            <div class="box person" onclick="location.href='#';location.href='#justin-section'">
+            <div class="box person" onclick="scrollToId('#justin-section')">
               <div class="image round">
                 <img src="images/justin2.jpg" alt="Justin" />
               </div>
@@ -205,11 +206,12 @@
           <div style="clear:both"></div>
           <div>
             <article>
-              <p>BIO Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum. BIO</p>
+              <p>Whether it's a fascination with music, health, games, cooking, history, software, or any other of my many interests, I get hooked and stubborn while yearning to hone my skills.  There's a sense of urgency that I experience when something comes to me worth solving or reflecting upon, and in computer science, there's certainly no shortage of brilliant solutions and interesting problems worth thinking about.</p>
+              <p>Pursuing a career in software development is one of the best decisions I've made for myself.  It compliments my enjoyment of getting lost in my work while being an avenue through which I feel I can impart some sort of positive change in this technological world of ours.</p>
               <footer>
-                <a href="#" class="button special">Resume</a>
-                <a href="#" class="button special">Github</a>
-                <a href="#" class="button special">LinkedIn</a>
+                <a href="https://docs.google.com/document/d/1ZtDKDZ0ut1DvwlE5gNFH-OWQkZUMwO8s2boh9pcW_5A/edit" class="button special">Resume</a>
+                <a href="https://github.com/pianojet" class="button special">Github</a>
+                <a href="https://www.linkedin.com/in/justin-taylor-7aa4254a" class="button special">LinkedIn</a>
               </footer>
             </article>
           </div>
@@ -218,8 +220,7 @@
 
 
     <!-- Contact -->
-      <a name="contact"></a>
-      <section id="three" class="wrapper special">
+      <section id="contact" class="wrapper special">
         <div class="inner">
           <header class="align-left title">
             <h2>Nunc Dignissim</h2>

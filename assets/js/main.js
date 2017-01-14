@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
   Theory by TEMPLATED
   templated.co @templatedco
