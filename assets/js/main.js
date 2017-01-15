@@ -86,4 +86,10 @@
     }, 800);
   };
 
+  var images = ['carrier1.jpg', 'carrier2.jpg', 'carrier3.jpg', 'carrier4.jpg', 'carrier5.jpg'];
+  var offsets = ['-165px', '-165px', '-250px', '-165px', ''];
+  var imagePos = Math.floor(Math.random() * images.length);
+  $('#banner').css({'background-image': 'url(images/' + images[imagePos] + ')'});
+  $('#banner').css({'background-position': '0 ' + offsets[imagePos]});
+
 })(jQuery);

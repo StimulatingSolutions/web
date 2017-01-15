@@ -2599,7 +2599,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   padding: 12em 0 16em 0;
   background-image: url('../../images/carrier1.jpg');
   background-size: cover;
-  background-position: 0 -165px;
+  background-position: 0;
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
