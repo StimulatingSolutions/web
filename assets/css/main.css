@@ -2375,6 +2375,22 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   padding-top: 44px;
 }
 
+.team-summary {
+  color: #888;
+}
+
+.team-summary b {
+  color: #666;
+}
+
+.team-summary p {
+  margin-bottom: 1.5em;
+}
+
+section.wrapper.team-summary header {
+  margin-bottom: 1.5em;
+}
+
 .subpage #header {
   background: #5385c1;
   top: 0;
