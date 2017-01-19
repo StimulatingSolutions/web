@@ -1268,7 +1268,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 /* Type */
 
 body, input, select, textarea {
-  color: #9a9a9a;
+  color: #888;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 13pt;
   font-weight: 300;
@@ -1315,7 +1315,7 @@ a:hover {
 }
 
 strong, b {
-  color: #555;
+  color: #666;
   font-weight: 600;
 }
 
@@ -1628,7 +1628,7 @@ section.wrapper.justin, article.wrapper.justin {
 }
 
 header p {
-  color: #bbb;
+  color: #888;
   position: relative;
   margin: 0 0 1.5em 0;
 }
@@ -1646,6 +1646,11 @@ header h3+p {
 header h4+p, header h5+p, header h6+p {
   font-size: 0.9em;
   margin-top: -0.6em;
+}
+
+.email a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 
@@ -2373,14 +2378,6 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 .subpage {
   padding-top: 44px;
-}
-
-.team-summary {
-  color: #888;
-}
-
-.team-summary b {
-  color: #666;
 }
 
 .team-summary p {
