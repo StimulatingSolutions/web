@@ -1518,9 +1518,6 @@ section.wrapper.dan, article.wrapper.dan {
   section.wrapper.dan h3, article.wrapper.dan h3 {
     color: #FFF;
   }
-  section.wrapper.dan a {
-    background-color: #56B889;
-  }
 
 
 
@@ -1538,9 +1535,6 @@ section.wrapper.joe, article.wrapper.joe {
   section.wrapper.joe h3, article.wrapper.joe h3 {
     color: #FFF;
   }
-  section.wrapper.joe a {
-    background-color: #56B889;
-  }
 
 
 
@@ -1556,9 +1550,6 @@ section.wrapper.nick, article.wrapper.nick {
   }
   section.wrapper.nick h3, article.wrapper.nick h3 {
     color: #FFF;
-  }
-  section.wrapper.nick a {
-    background-color: #56B889;
   }
 
 
@@ -1577,9 +1568,6 @@ section.wrapper.jesse, article.wrapper.jesse {
   section.wrapper.jesse h3, article.wrapper.jesse h3 {
     color: #FFF;
   }
-  section.wrapper.jesse a {
-    background-color: #56B889;
-  }
 
 
 
@@ -1595,9 +1583,6 @@ section.wrapper.justin, article.wrapper.justin {
   }
   section.wrapper.justin h3, article.wrapper.justin h3 {
     color: #FFF;
-  }
-  section.wrapper.justin a {
-    background-color: #56B889;
   }
 
 
@@ -2351,16 +2336,16 @@ input[type="submit"].alt.icon:before, input[type="reset"].alt.icon:before, input
 }
 
 input[type="submit"].special, input[type="reset"].special, input[type="button"].special, button.special, .button.special {
-  background-color: #1B5B8C;
+  background-color: #5B8;
   color: #ffffff !important;
 }
 
 input[type="submit"].special:hover, input[type="reset"].special:hover, input[type="button"].special:hover, button.special:hover, .button.special:hover {
-  background-color: #6692c8;
+  background-color: #7CA;
 }
 
 input[type="submit"].special:active, input[type="reset"].special:active, input[type="button"].special:active, button.special:active, .button.special:active {
-  background-color: #4278b8;
+  background-color: #497;
 }
 
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, button.disabled, button:disabled, .button.disabled, .button:disabled {
