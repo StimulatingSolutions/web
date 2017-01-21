@@ -1317,6 +1317,7 @@ a:hover {
 strong, b {
   color: #666;
   font-weight: 600;
+  font-size:1.2em;
 }
 
 em, i {
