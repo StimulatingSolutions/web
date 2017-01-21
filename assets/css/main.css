@@ -2393,6 +2393,11 @@ section.wrapper.team-summary header {
   margin-bottom: 1.5em;
 }
 
+h3.big {
+  font-size: 1.8em;
+  margin: 0;
+}
+
 .subpage #header {
   background: #1B5B8C;
   top: 0;
