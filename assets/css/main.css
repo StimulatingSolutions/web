@@ -1306,7 +1306,7 @@ body, input, select, textarea {
 }
 
 a {
-  color: #5385c1;
+  color: #1B5B8C;
   text-decoration: underline;
 }
 
@@ -1328,7 +1328,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #5385c1;
+  color: #1B5B8C;
   font-weight: 300;
   line-height: 1.5;
   margin: 0 0 1em 0;
@@ -1487,7 +1487,7 @@ section.wrapper.bio img {
 
 
 section.wrapper.people-summary, article.wrapper.people-summary {
-  background: #5385c1;
+  background: #1B5B8C;
   color: #bacee6;
 }
   section.wrapper.people-summary header h2, article.wrapper.people-summary header h2 {
@@ -1505,8 +1505,8 @@ section.wrapper.people-summary, article.wrapper.people-summary {
 
 
 section.wrapper.dan, article.wrapper.dan {
-  background: #772222;
-  color: #bacee6;
+  background: #5687AC;
+  color: #FFF;
 }
   section.wrapper.dan header h2, article.wrapper.dan header h2 {
     color: #fff;
@@ -1518,15 +1518,15 @@ section.wrapper.dan, article.wrapper.dan {
     color: #FFF;
   }
   section.wrapper.dan a {
-    background-color: #AA0000;
+    background-color: #56B889;
   }
 
 
 
 
 section.wrapper.joe, article.wrapper.joe {
-  background: #227722;
-  color: #bacee6;
+  background: #366C96;
+  color: #fff;
 }
   section.wrapper.joe header h2, article.wrapper.joe header h2 {
     color: #fff;
@@ -1538,14 +1538,14 @@ section.wrapper.joe, article.wrapper.joe {
     color: #FFF;
   }
   section.wrapper.joe a {
-    background-color: #00AA00;
+    background-color: #56B889;
   }
 
 
 
 section.wrapper.nick, article.wrapper.nick {
-  background: #111177;
-  color: #bacee6;
+  background: #10466F;
+  color: #fff;
 }
   section.wrapper.nick header h2, article.wrapper.nick header h2 {
     color: #fff;
@@ -1557,15 +1557,15 @@ section.wrapper.nick, article.wrapper.nick {
     color: #FFF;
   }
   section.wrapper.nick a {
-    background-color: #0000AA;
+    background-color: #56B889;
   }
 
 
 
 
 section.wrapper.jesse, article.wrapper.jesse {
-  background: #777711;
-  color: #bacee6;
+  background: #1B5B8C;
+  color: #fff;
 }
   section.wrapper.jesse header h2, article.wrapper.jesse header h2 {
     color: #fff;
@@ -1577,14 +1577,14 @@ section.wrapper.jesse, article.wrapper.jesse {
     color: #FFF;
   }
   section.wrapper.jesse a {
-    background-color: #AAAA00;
+    background-color: #56B889;
   }
 
 
 
 section.wrapper.justin, article.wrapper.justin {
-  background: #117777;
-  color: #bacee6;
+  background: #053356;
+  color: #fff;
 }
   section.wrapper.justin header h2, article.wrapper.justin header h2 {
     color: #fff;
@@ -1596,7 +1596,7 @@ section.wrapper.justin, article.wrapper.justin {
     color: #FFF;
   }
   section.wrapper.justin a {
-    background-color: #00AAAA;
+    background-color: #56B889;
   }
 
 
@@ -1778,8 +1778,8 @@ input[type="text"]:invalid, input[type="password"]:invalid, input[type="email"]:
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
-  border-color: #5385c1;
-  box-shadow: 0 0 0 1px #5385c1;
+  border-color: #1B5B8C;
+  box-shadow: 0 0 0 1px #1B5B8C;
 }
 
 .select-wrapper {
@@ -1880,8 +1880,8 @@ input[type="checkbox"]:checked+label:before, input[type="radio"]:checked+label:b
 }
 
 input[type="checkbox"]:focus+label:before, input[type="radio"]:focus+label:before {
-  border-color: #5385c1;
-  box-shadow: 0 0 0 1px #5385c1;
+  border-color: #1B5B8C;
+  box-shadow: 0 0 0 1px #1B5B8C;
 }
 
 input[type="checkbox"]+label:before {
@@ -2346,7 +2346,7 @@ input[type="submit"].alt.icon:before, input[type="reset"].alt.icon:before, input
 }
 
 input[type="submit"].special, input[type="reset"].special, input[type="button"].special, button.special, .button.special {
-  background-color: #5385c1;
+  background-color: #1B5B8C;
   color: #ffffff !important;
 }
 
@@ -2389,7 +2389,7 @@ section.wrapper.team-summary header {
 }
 
 .subpage #header {
-  background: #5385c1;
+  background: #1B5B8C;
   top: 0;
   height: 44px;
   line-height: 44px;
@@ -2414,7 +2414,7 @@ section.wrapper.team-summary header {
 }
 
 #header.opaque {
-  background-color: #5385c1;
+  background-color: #1B5B8C;
   border-bottom: 1px solid #888;
   box-shadow: 0 2px 10px #222;
 }
@@ -2530,7 +2530,7 @@ section.wrapper.team-summary header {
   position: fixed;
   right: 0;
   top: 0;
-  background: #5385c1;
+  background: #1B5B8C;
   color: #d4e0ef;
   height: 100%;
   max-width: 80%;
@@ -2631,7 +2631,7 @@ section.wrapper.team-summary header {
   /*background-attachment: fixed;*/
   background-repeat: no-repeat;
   text-align: center;
-  /*border-top: 0.5em solid #5385c1;*/
+  /*border-top: 0.5em solid #1B5B8C;*/
 }
 
 #banner h1 {
@@ -2644,7 +2644,7 @@ section.wrapper.team-summary header {
 }
 
 #banner p {
-  font-size: 1.1em;
+  font-size: 1.7;
   color: rgba(255, 255, 255, 1);
   margin-bottom: 1.75em;
 }

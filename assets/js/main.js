@@ -88,7 +88,7 @@
 
   var images = ['carrier1.jpg', 'carrier2.jpg', 'carrier3.jpg', 'carrier4.jpg', 'carrier5.jpg'];
   var imagePos = Math.floor(Math.random() * images.length);
-  var gradient = "0, 50, 255, 0.4";
+  var gradient = "5, 19, 41, 0.4";
   $('#banner').css({'background-image': 'linear-gradient(rgba('+gradient+'),rgba('+gradient+')),url(images/' + images[imagePos] + ')'});
 
 })(jQuery);
