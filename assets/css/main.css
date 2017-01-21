@@ -1654,6 +1654,10 @@ header h4+p, header h5+p, header h6+p {
   text-decoration: underline;
 }
 
+.bold-heading {
+  font-size: 1.05em;
+  font-weight: bold;
+}
 
 /* Flex */
 
