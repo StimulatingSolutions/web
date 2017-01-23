@@ -1455,7 +1455,7 @@ section.special article, article.special article {
 }
 
 section.wrapper, article.wrapper {
-  padding: 6em 0;
+  padding: 5.75em 0;
 }
 
 section.wrapper header, article.wrapper header {
@@ -1486,6 +1486,34 @@ section.wrapper.bio img {
   width: 151px;
 }
 
+a.email {
+  display: inline-block;
+  border: 1px dotted #9CF;
+  border-radius: 4px;
+  padding: 3px 6px;
+  font-weight: bold;
+  background-color: #F8F8FF;
+}
+
+footer#footer {
+  margin-top: 30px;
+}
+
+section.wrapper.blur {
+  padding: 0;
+  width: 100%;
+  height: .25em;
+}
+
+
+section.wrapper.blur.banner-team {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  margin-top: -0.25em;
+}
+
+section.wrapper.blur.team-people {
+  background: linear-gradient(to bottom, #FFFFFF, #1B5B8C);
+}
 
 section.wrapper.people-summary, article.wrapper.people-summary {
   background: #1B5B8C;
@@ -1501,9 +1529,9 @@ section.wrapper.people-summary, article.wrapper.people-summary {
     color: #FFF;
   }
 
-
-
-
+section.wrapper.blur.people-dan {
+  background: linear-gradient(to bottom, #1B5B8C, #5687AC);
+}
 
 section.wrapper.dan, article.wrapper.dan {
   background: #5687AC;
@@ -1520,7 +1548,9 @@ section.wrapper.dan, article.wrapper.dan {
   }
 
 
-
+section.wrapper.blur.dan-joe {
+  background: linear-gradient(to bottom, #5687AC, #366C96);
+}
 
 section.wrapper.joe, article.wrapper.joe {
   background: #366C96;
@@ -1536,23 +1566,9 @@ section.wrapper.joe, article.wrapper.joe {
     color: #FFF;
   }
 
-
-
-section.wrapper.nick, article.wrapper.nick {
-  background: #10466F;
-  color: #fff;
+section.wrapper.blur.joe-jesse {
+  background: linear-gradient(to bottom, #366C96, #1B5B8C);
 }
-  section.wrapper.nick header h2, article.wrapper.nick header h2 {
-    color: #fff;
-  }
-  section.wrapper.nick header p, article.wrapper.nick header p {
-    color: #bacee6;
-  }
-  section.wrapper.nick h3, article.wrapper.nick h3 {
-    color: #FFF;
-  }
-
-
 
 
 section.wrapper.jesse, article.wrapper.jesse {
@@ -1569,6 +1585,28 @@ section.wrapper.jesse, article.wrapper.jesse {
     color: #FFF;
   }
 
+section.wrapper.blur.jesse-nick {
+  background: linear-gradient(to bottom, #1B5B8C, #10466F);
+}
+
+
+section.wrapper.nick, article.wrapper.nick {
+  background: #10466F;
+  color: #fff;
+}
+section.wrapper.nick header h2, article.wrapper.nick header h2 {
+  color: #fff;
+}
+section.wrapper.nick header p, article.wrapper.nick header p {
+  color: #bacee6;
+}
+section.wrapper.nick h3, article.wrapper.nick h3 {
+  color: #FFF;
+}
+
+section.wrapper.blur.nick-justin {
+  background: linear-gradient(to bottom, #10466F, #053356);
+}
 
 
 section.wrapper.justin, article.wrapper.justin {
@@ -1584,6 +1622,10 @@ section.wrapper.justin, article.wrapper.justin {
   section.wrapper.justin h3, article.wrapper.justin h3 {
     color: #FFF;
   }
+
+section.wrapper.blur.justin-contact {
+  background: linear-gradient(to bottom, #053356, #FFFFFF);
+}
 
 
 @media screen and (max-width: 980px) {
@@ -2410,7 +2452,6 @@ h3.big {
 
 #header.opaque {
   background-color: #1B5B8C;
-  border-bottom: 1px solid #888;
   box-shadow: 0 2px 10px #222;
 }
 
