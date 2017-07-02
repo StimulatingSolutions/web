@@ -35,3 +35,4 @@ sqlImports/
 
 .vscode/
 scripts/local/?*.*
+!/browserconfig.xml

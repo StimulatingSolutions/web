@@ -5,10 +5,17 @@
 -->
 <html>
   <head>
-    <title>ZeroToLaunch.team</title>
+    <title>Stimulating Solutions, LLC</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Stimulating Solutions, LLC">
+    <meta name="application-name" content="Stimulating Solutions, LLC">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="assets/css/main.css?cachebuster=2" />
     <script src="assets/js/jquery.min.js"></script>
   </head>
@@ -17,9 +24,9 @@
     <!-- Header -->
       <header id="header">
         <div class="inner">
-          <a onclick="scrollToId('#top');" class="logo">Zero to Launch</a>
+          <a onclick="scrollToId('#top');" class="logo">Stimulating Solutions, LLC</a>
           <nav id="nav">
-            <span onclick="scrollToId('#team')">The Team</span>
+            <span onclick="scrollToId('#company')">The Company</span>
             <span onclick="scrollToId('#people')">The People</span>
             <span onclick="scrollToId('#contact')">Contact Us</span>
 
@@ -30,36 +37,30 @@
 
     <!-- Banner -->
       <section id="banner">
-        <h1>Team Zero to Launch</h1>
-        <p>A group of software devs who get it done.</p>
+        <h1>Stimulating Solutions, LLC</h1>
+        <p>Creative techies who get it done.</p>
       </section>
 
       <section class="wrapper blur special banner-team"></section>
 
     <!-- Team -->
-      <section id="team" class="wrapper team-summary">
+      <section id="company" class="wrapper team-summary">
         <div class="inner">
           <div class="flex flex-3">
             <header>
-              <h2>Why hire a pre-assembled software development team?</h2>
+              <h2>Need customized technology for your project?</h2>
             </header>
             <p>
-              When you're starting from nothing, it can require significant resources just to find several people you want
-              to hire individually, without even considering whether they'd make a good team.  From balancing skillsets,
-              to ensuring compatible personalities, <b>there's a lot that goes into building a great team</b>.
+              The Stimulating Solutions team is a diverse group of technology professionals and enthusiasts, and we're
+              willing to take on any challenge, from <b>on-site tech installations</b>, to custom <b>cloud-scalable software
+              systems</b>, and anything in between.
             </p>
             <p>
-              Once you've found them and hired them, everyone simultaneously has to get used to the company, the product, the tools, the process,
-              and each other.  All said and done, <b>it can take months before everyone hits their stride</b>.
+              Beyond our technical expertise, we're also skilled at <b>project management and communication</b>.
+              Whether you have a rigorous requirements specification, or just a vision you want to see fulfilled,
+              we'll work closely with you throughout the development process to make sure we deliver a result
+              that <b>meets your needs and your vision</b>.
             </p>
-            <p>
-              Or, you can hire a team that's already balanced, and already works well together.  The team can hit the ground running, using
-              tools and process they're all familiar with.  That means less time to get to your minimum viable product, less
-              seed money required, and <b>a better chance of success</b>.
-            </p>
-            <footer>
-              <h4>Maybe the better question is <span class="bold-heading">&ldquo;Why <i>wouldn't</i> you hire a pre-assembled software development team?&rdquo;</span></h4>
-            </footer>
           </div>
         </div>
       </section>
@@ -68,242 +69,390 @@
       <section class="wrapper blur special team-people"></section>
 
     <!-- Thumbs -->
-      <section id="people" class="wrapper people-summary special">
+      <section id="people" class="wrapper team-block people-summary special">
         <div class="inner">
           <header>
             <h2>Our Team</h2>
-            <p>Meet our awesome collaboration of hackers.</p>
+            <p>
+              We're all problem solvers who can take on a variety of challenges.
+            </p>
+            <p>
+              Whether from experience, training, or interest, we each have our areas of specialty.
+            </p>
           </header>
-          <div class="flex flex-4">
-            <div class="box person" onclick="scrollToId('#dan-section')">
-              <div class="image round">
-                <img src="images/dan.jpg" alt="Dan" />
-              </div>
-              <h3 class="card-name">Dan</h3>
-              <p>Swiss Army Knife</p>
-            </div>
-            <div class="box person" onclick="scrollToId('#joe-section')">
+          <div class="flex flex-4 person-row">
+            <div class="box person" onclick="scrollToId('#bio-joe')">
               <div class="image round">
                 <img src="images/joe.jpg" alt="Joe" />
               </div>
               <h3 class="card-name">Joe</h3>
-              <p>Leader<br/>Mentor<br/>Coder</p>
+              <p>Systems Integration<br/>Optimization<br/>Project Coordination</p>
             </div>
-            <div class="box person" onclick="scrollToId('#jesse-section')">
+            <div class="box person" onclick="scrollToId('#bio-jesse')">
               <div class="image round">
                 <img src="images/jesse1.png" alt="Jesse" />
               </div>
               <h3 class="card-name">Jesse</h3>
-              <p>Web Expert<br/>Bug Sniper<br/>Optimist</p>
+              <p>Mobile Apps<br/>Gamification<br/>Stuff</p>
             </div>
-            <div class="box person gravatar" onclick="scrollToId('#nick-section')">
+            <div class="box person" onclick="scrollToId('#bio-jason')">
               <div class="image round">
-                <img src="https://docs.google.com/uc?id=0B3qb_Ex49jJ3aFJsR2I1cWs0c0k" alt="Nick" />
+                <img src="images/smiley.png" alt="Jason" />
               </div>
-              <h3 class="card-name">Nick</h3>
-              <p>Creator<br/>Hacker<br/>Open Source Advocate</p>
+              <h3 class="card-name">Jason</h3>
+              <p>Data Visualization<br/>Geo-spatial Tech<br/>3D Printing</p>
             </div>
-            <div class="box person" onclick="scrollToId('#justin-section')">
+            <div class="box person" onclick="scrollToId('#bio-dan')">
+              <div class="image round">
+                <img src="images/dan.jpg" alt="Dan" />
+              </div>
+              <h3 class="card-name">Dan</h3>
+              <p>User Experience<br/>Things<br/>Stuff</p>
+            </div>
+            <div class="box person" onclick="scrollToId('#bio-dusty')">
+              <div class="image round">
+                <img src="images/smiley.png" alt="Dusty" />
+              </div>
+              <h3 class="card-name">Dusty</h3>
+              <p>Pyrotechnics<br/>Analog Interactivity<br/>Things</p>
+            </div>
+            <div class="box person" onclick="scrollToId('#bio-corey')">
+              <div class="image round">
+                <img src="images/smiley.png" alt="Corey" />
+              </div>
+              <h3 class="card-name">Corey</h3>
+              <p>Automation<br/>Cloud Services<br/>Things</p>
+            </div>
+            <div class="box person" onclick="scrollToId('#bio-justin')">
               <div class="image round">
                 <img src="images/justin2.jpg" alt="Justin" />
               </div>
               <h3 class="card-name">Justin</h3>
-              <p>Thinker<br/>Dreamer<br/>Learner</p>
+              <p>Machine Learning<br/>Audio Processing<br/>Data Visualization</p>
+            </div>
+            <div class="box person" onclick="scrollToId('#bio-rose')">
+              <div class="image round">
+                <img src="images/smiley.png" alt="Rose" />
+              </div>
+              <h3 class="card-name">Rose</h3>
+              <p>Graphic Design<br/>Stuff<br/>Things</p>
+            </div>
+            <div class="box person gravatar" onclick="scrollToId('#bio-nick')">
+              <div class="image round">
+                <img src="https://docs.google.com/uc?id=0B3qb_Ex49jJ3aFJsR2I1cWs0c0k" alt="Nick" />
+              </div>
+              <h3 class="card-name">Nick</h3>
+              <p>Mapping Tech<br/>API integration<br/>Modular Code</p>
+            </div>
+            <div class="box person" onclick="scrollToId('#bio-wes')">
+              <div class="image round">
+                <img src="images/smiley.png" alt="Wes" />
+              </div>
+              <h3 class="card-name">Wes</h3>
+              <p>3D Modelling<br/>Things<br/>Stuff</p>
             </div>
           </div>
-          <footer>
-            <h3 class="big">As a team, we've been together for over two years.</h3>
-            <h3 class="big">Many of the team members have worked together on projects spanning a decade.</h3>
-          </footer>
         </div>
       </section>
 
-      <section class="wrapper blur special people-dan"></section>
+      <section class="wrapper blur special divider-people-1"></section>
 
-    <!-- People -->
-      <section id="dan-section" class="wrapper dan special bio">
-        <div class="inner">
-          <header class="align-center">
-            <img src="images/dan.jpg" alt="Dan" />
-            <div class="title align-left">
-              <h2>Dan Sexton</h2>
-              <p>Swiss Army Knife</p>
+      <div class="bios">
+
+        <section id="bio-joe" class="wrapper team-block special bio">
+          <div class="inner">
+            <header class="align-center">
+              <img src="images/joe.jpg" alt="Joe" />
+              <div class="title align-left">
+                <h2>Joe Ibershoff</h2>
+                <p>Systems Integration &nbsp;&#9642;&nbsp; Optimization &nbsp;&#9642;&nbsp; Project Coordination</p>
+              </div>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  I like to take on big-scope challenges, the sort where it's not fully clear what form the solution
+                  should take; the more brainstorming required, the more proud I am of the result.  I usually design
+                  and implement software systems, but hardware excites me more.  In my spare time, I've found myself
+                  dabbling in robotics, semi-automated beer brewing, and medical assistive devices.
+                </p>
+                <p>
+                  I'm comfortable discussing problems and solutions with stakeholders of all kinds.  Even while digging
+                  in and working on a challenging component, I make a point of keeping one eye on the bigger
+                  picture in order to ensure my team and I are making the biggest impact we can.
+                </p>
+              </article>
             </div>
-          </header>
-          <div style="clear:both"></div>
-          <div>
-            <article>
-              <p>
-                August 1981, days away from turning seven, IBM announced the release of the IBM PC.  My dad brought one home and I became fortunate to grow up a child of DOS 1.0 and 80's bullentin board systems; I have been enthralled from then on. After graduating magna cum laude in Finance from the University of Central Florida, I moved to New York and began working with my first tech startup.  Since then, I have been lucky to continue to build and work with the best people developing products from the ground up.
-              </p>
-              <p>
-                Working with architects and fashion designers in NY helped shape my eye for design.  And being able to take on very challenging development tasks has given me the sense that anything can be built, especially with the right team.
-              <p>
-              <footer>
-                <a href="http://www.dansexton.com/resume.html" class="button special">resume</a>
-                <a href="https://github.com/notxesnad" class="button special">Github</a>
-                <a href="https://www.linkedin.com/in/dan-sexton-2791373" class="button special">LinkedIn</a>
-              </footer>
-            </article>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="wrapper blur special dan-joe"></section>
+        <section class="wrapper blur special"></section>
 
-      <section id="joe-section" class="wrapper joe special bio">
-        <div class="inner">
-          <header class="align-center">
-            <img src="images/joe.jpg" alt="Joe" />
-            <div class="title align-left">
-              <h2>Joe Ibershoff</h2>
-              <p>Leader, Mentor, Coder</p>
+        <section id="bio-jesse" class="wrapper team-block special bio">
+          <div class="inner">
+            <header class="align-center">
+              <img src="images/jesse1.png" alt="Jesse" />
+              <div class="title align-left">
+                <h2>Jesse Stewart</h2>
+                <p>Mobile Apps &nbsp;&#9642;&nbsp; Gamification &nbsp;&#9642;&nbsp; Stuff</p>
+              </div>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  A lifelong student and technology enthusiast, I enjoy putting my very best into the work I do for myself and for my team. I thrive when
+                  challenged with new technologies and love an opportunity to brainstorm and think out of the box for both process and product.
+                </p>
+                 <p>
+                  I have over 10 years experience designing and building web and mobile applications. I have worked with
+                  some very talented people creating tools for research and innovative products.
+                </p>
+              </article>
             </div>
-          </header>
-          <div style="clear:both"></div>
-          <div>
-            <article>
-              <p>
-                I love helping others learn and excel.  I look for ways to raise the bar for everyone on the dev team, and to ensure both the code
-                architecture and dev process make it easier for all of us to do what we need to do.  I'm always happy to talk through
-                possible solutions with a teammate, whether the problem is one I'll be working on myself or one someone else is tackling.
-              </p>
-              <p>
-                With nearly 2 decades of experience writing software, I'm comfortable discussing problems and solutions
-                with stakeholders of all kinds.  I make a point of keeping one eye on the bigger picture, to ensure my team
-                and I are making the biggest impact we can.
-              </p>
-              <p>
-                When it comes to coding, I like to take on big-scope challenges, the sort where it's not fully clear what form the solution
-                should take.  The more brainstorming I have to do in the process, the more proud I'll be of the result.
-              </p>
-              <footer>
-                <a href="http://www.joe.ibershoff.com/resume.pdf" class="button special">resume</a>
-                <a href="https://github.com/zacronos" class="button special">Github</a>
-                <a href="https://www.linkedin.com/in/joeibershoff" class="button special">LinkedIn</a>
-                <a href="https://www.npmjs.com/~zacronos" class="button special">npm</a>
-              </footer>
-            </article>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="wrapper blur special joe-jesse"></section>
+        <section class="wrapper blur special"></section>
 
-      <section id="jesse-section" class="wrapper jesse special bio">
-        <div class="inner">
-          <header class="align-center">
-            <img src="images/jesse1.png" alt="jesse" />
-            <div class="title align-left">
-              <h2>Jesse Stewart</h2>
-              <p>Web Expert, Bug Sniper, Optimist</p>
+        <section id="bio-jason" class="wrapper team-block special bio">
+          <div class="inner">
+            <header class="align-center">
+              <img src="images/smiley.png" alt="Jason" />
+              <div class="title align-left">
+                <h2>Jason Hettmansperger</h2>
+                <p>Data Visualization &nbsp;&#9642;&nbsp; Geo-spatial Tech &nbsp;&#9642;&nbsp; 3D Printing</p>
+              </div>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  I love technology, especially certain parts of technology that I like more than the other parts.  I am
+                  amazing when it comes to the parts of technology that I like.  I also like bacon.
+                </p>
+                 <p>
+                  Sometimes technology goes well with filler text.  Sometimes bacon goes well with filler text.  Let's find out.
+                   Spicy jalapeno bacon ipsum dolor amet capicola bacon leberkas burgdoggen meatloaf meatball non pork
+                   belly kevin laborum frankfurter esse dolore bresaola.
+                </p>
+              </article>
             </div>
-          </header>
-          <div style="clear:both"></div>
-          <div>
-            <article>
-              <p>
-                A lifelong student and technology enthusiast, I enjoy putting my very best into the work I do for myself and for my team. I thrive when
-                challenged with new technologies and love an opportunity to brainstorm and think out of the box for both process and product.
-              </p>
-               <p>
-                I have over 10 years experience designing and building web and mobile applications. I have worked with
-                some very talented people creating tools for research and innovative products with several startup companies. I
-                have always had a passion for the web, javascript, and bringing new ideas to life.
-              </p>
-              <footer>
-                <a class="button special" href="https://drive.google.com/open?id=0B_ew-dbP7gG_TXBVU3cySlJFVmM">resume</a>
-                <a href="https://github.com/jessecstewart" class="button special">Github</a>
-                <a href="https://www.linkedin.com/in/jesse-stewart-dev" class="button special">LinkedIn</a>
-              </footer>
-            </article>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="wrapper blur special jesse-nick"></section>
+        <section class="wrapper blur special"></section>
 
-      <section id="nick-section" class="wrapper nick special bio">
-        <div class="inner">
-          <header class="align-center">
-            <img src="https://docs.google.com/uc?id=0B3qb_Ex49jJ3aFJsR2I1cWs0c0k" alt="nmccready" />
-            <div class="title align-left">
-              <h2>Nick McCready</h2>
-              <p>Creator, Hacker, Open Source Advocate</p>
+        <section id="bio-dan" class="wrapper team-block special bio">
+          <div class="inner">
+            <header class="align-center">
+              <img src="images/dan.jpg" alt="Dan" />
+              <div class="title align-left">
+                <h2>Dan Sexton</h2>
+                <p>User Experience &nbsp;&#9642;&nbsp; Things &nbsp;&#9642;&nbsp; Stuff</p>
+              </div>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  August 1981, days away from turning seven, IBM announced the release of the IBM PC.  My dad brought one
+                  home and I became fortunate to grow up a child of DOS 1.0 and 80's bulletin board systems; I have been
+                  enthralled from then on.
+                </p>
+                <p>
+                  Working with architects and fashion designers in NY helped shape my eye for design.  And being able to
+                  take on very challenging development tasks has given me the sense that anything can be built, especially
+                  with the right team.
+                </p>
+              </article>
             </div>
-          </header>
-          <div style="clear:both"></div>
-          <div>
-            <article>
-              <p>
-                I'm a computer nerd at heart, with 14+ years of software engineering, testing, and design.
-                My main passion in life is clean reusable code, constant learning, and creating amazing things from nothing.
-                My current favorite technologies of trade are NodeJS, Angular, Scala, PlayFramework, git, JavaScript, and CoffeeScript.
-              </p>
-              <p>
-                I am extremely active in the open source community. I'm sure to dig into many repositories to aid in bug fixes, advice, and/or management
-                of open source projects. Github, Bitbucket and the like are the future. OSS 4 life.
-              </p>
-              <p>
-                Besides coding, I enjoy crossfit, hiking, family, and friends.
-              </p>
-              <footer>
-                <a href="https://docs.google.com/document/d/1eIKifzJDVGvIyJYa9_vLKlCgRHJJ5tw9t13LC60imSA/pub" class="button special">resume</a>
-                <a href="https://github.com/nmccready" class="button special">Github</a>
-                <a href="https://www.linkedin.com/in/nicholas-mccready-8158b53b" class="button special">LinkedIn</a>
-                <a href="https://www.npmjs.com/~nmccready" class="button special">npm</a>
-              </footer>
-            </article>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="wrapper blur special nick-justin"></section>
+        <section class="wrapper blur special"></section>
 
-      <section id="justin-section" class="wrapper justin special bio">
-        <div class="inner">
-          <img src="images/justin2.jpg" alt="Person 1" />
-          <header class="align-left title">
-            <h2>Justin Taylor</h2>
-            <p>Thinker, Dreamer, Learner</p>
-          </header>
-          <div style="clear:both"></div>
-          <div>
-            <article>
-              <p>
-                Whether it's a fascination with music, health, games, cooking, history, software, or any other of my many interests, I
-                get hooked and stubborn while yearning to hone my skills.  There's a sense of urgency that I experience when something
-                comes to me worth solving or reflecting upon, and in computer science, there's certainly no shortage of brilliant solutions
-                and interesting problems worth thinking about.
-              </p>
-              <p>Pursuing a career in software development is one of the best decisions I've made for myself.  It compliments my enjoyment
-                of getting lost in my work while being an avenue through which I feel I can impart some sort of positive change in this
-                technological world of ours.
-              </p>
-              <footer>
-                <a href="https://docs.google.com/document/d/1ZtDKDZ0ut1DvwlE5gNFH-OWQkZUMwO8s2boh9pcW_5A/edit" class="button special">resume</a>
-                <a href="https://github.com/pianojet" class="button special">Github</a>
-                <a href="https://www.linkedin.com/in/justin-taylor-7aa4254a" class="button special">LinkedIn</a>
-              </footer>
-            </article>
+        <section id="bio-dusty" class="wrapper team-block special bio">
+          <div class="inner">
+            <header class="align-center">
+              <img src="images/smiley.png" alt="Dusty" />
+              <div class="title align-left">
+                <h2>Dusty Doom</h2>
+                <p>Pyrotechnics &nbsp;&#9642;&nbsp; Analog Interactivity &nbsp;&#9642;&nbsp; Things</p>
+              </div>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  I love technology, especially certain parts of technology that I like more than the other parts.  I am
+                  amazing when it comes to the parts of technology that I like.  I also like bacon.
+                </p>
+                 <p>
+                  Sometimes technology goes well with filler text.  Sometimes bacon goes well with filler text.  Let's find out.
+                   Spicy jalapeno bacon ipsum dolor amet capicola bacon leberkas burgdoggen meatloaf meatball non pork
+                   belly kevin laborum frankfurter esse dolore bresaola.
+                </p>
+              </article>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="wrapper blur special justin-contact"></section>
+        <section class="wrapper blur special"></section>
 
+        <section id="bio-corey" class="wrapper team-block special bio">
+          <div class="inner">
+            <header class="align-center">
+              <img src="images/smiley.png" alt="Corey" />
+              <div class="title align-left">
+                <h2>Corey O'Brien</h2>
+                <p>Automation &nbsp;&#9642;&nbsp; Cloud Services &nbsp;&#9642;&nbsp; Stuff</p>
+              </div>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  I love technology, especially certain parts of technology that I like more than the other parts.  I am
+                  amazing when it comes to the parts of technology that I like.  I also like bacon.
+                </p>
+                 <p>
+                  Sometimes technology goes well with filler text.  Sometimes bacon goes well with filler text.  Let's find out.
+                   Spicy jalapeno bacon ipsum dolor amet capicola bacon leberkas burgdoggen meatloaf meatball non pork
+                   belly kevin laborum frankfurter esse dolore bresaola.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="wrapper blur special"></section>
+
+        <section id="bio-justin" class="wrapper team-block special bio">
+          <div class="inner">
+            <img src="images/justin2.jpg" alt="Person 1" />
+            <header class="align-left title">
+              <h2>Justin Taylor</h2>
+              <p>Machine Learning &nbsp;&#9642;&nbsp; Audio Processing &nbsp;&#9642;&nbsp; Data Visualization</p>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  Whether it's a fascination with music, health, games, cooking, history, software, or any other of my many interests, I
+                  get hooked and stubborn while yearning to hone my skills.  There's a sense of urgency that I experience when something
+                  comes to me worth solving or reflecting upon, and in computer science, there's certainly no shortage of brilliant solutions
+                  and interesting problems worth thinking about.
+                </p>
+                <p>Pursuing a career in software development is one of the best decisions I've made for myself.  It compliments my enjoyment
+                  of getting lost in my work while being an avenue through which I feel I can impart some sort of positive change in this
+                  technological world of ours.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="wrapper blur special"></section>
+
+        <section id="bio-rose" class="wrapper team-block special bio">
+          <div class="inner">
+            <header class="align-center">
+              <img src="images/smiley.png" alt="Rose" />
+              <div class="title align-left">
+                <h2>Rose Kohrman</h2>
+                <p>Graphic Design &nbsp;&#9642;&nbsp; Stuff &nbsp;&#9642;&nbsp; Things</p>
+              </div>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  I love technology, especially certain parts of technology that I like more than the other parts.  I am
+                  amazing when it comes to the parts of technology that I like.  I also like bacon.
+                </p>
+                 <p>
+                  Sometimes technology goes well with filler text.  Sometimes bacon goes well with filler text.  Let's find out.
+                   Spicy jalapeno bacon ipsum dolor amet capicola bacon leberkas burgdoggen meatloaf meatball non pork
+                   belly kevin laborum frankfurter esse dolore bresaola.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="wrapper blur special"></section>
+
+        <section id="bio-nick" class="wrapper team-block special bio">
+          <div class="inner">
+            <header class="align-center">
+              <img src="https://docs.google.com/uc?id=0B3qb_Ex49jJ3aFJsR2I1cWs0c0k" alt="nmccready" />
+              <div class="title align-left">
+                <h2>Nick McCready</h2>
+                <p>Mapping Tech &nbsp;&#9642;&nbsp; API integration &nbsp;&#9642;&nbsp; Modular Code</p>
+              </div>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  I'm a computer nerd at heart, with 14+ years of software engineering, testing, and design.
+                  My main passion in life is clean reusable code, constant learning, and creating amazing things from nothing.
+                </p>
+                <p>
+                  I am extremely active in the open source community. I'm sure to dig into many repositories to aid in bug fixes, advice, and/or management
+                  of open source projects. Github, Bitbucket and the like are the future. OSS 4 life.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="wrapper blur special"></section>
+
+        <section id="bio-wes" class="wrapper team-block special bio">
+          <div class="inner">
+            <header class="align-center">
+              <img src="images/smiley.png" alt="Wes" />
+              <div class="title align-left">
+                <h2>Wes Stewart</h2>
+                <p>3D Modelling &nbsp;&#9642;&nbsp; Things &nbsp;&#9642;&nbsp; Stuff</p>
+              </div>
+            </header>
+            <div style="clear:both"></div>
+            <div>
+              <article>
+                <p>
+                  I love technology, especially certain parts of technology that I like more than the other parts.  I am
+                  amazing when it comes to the parts of technology that I like.  I also like bacon.
+                </p>
+                 <p>
+                  Sometimes technology goes well with filler text.  Sometimes bacon goes well with filler text.  Let's find out.
+                   Spicy jalapeno bacon ipsum dolor amet capicola bacon leberkas burgdoggen meatloaf meatball non pork
+                   belly kevin laborum frankfurter esse dolore bresaola.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="wrapper blur special"></section>
+
+      </div>
 
     <!-- Contact -->
-      <section id="contact" class="wrapper special">
+      <section id="contact" class="wrapper special contact">
         <div class="inner">
           <header class="align-left title">
             <h2>Contact Us!</h2>
-            <p>We'd love to chat about your project and how we could help make it a success.</p>
+            <p>We'd love to chat about your project and how we can help make it a success.</p>
           </header>
           <div class="flex">
             <article>
               <header>
-                <h3 class="email">You can reach us via email at <a class="email" href="mailto:team@zerotolaunch.team">team@zerotolaunch.team</a></h3>
+                <h3 class="email">Phone: <a class="phone" href="tel:+1-502-509-6182">(502) 509-6182</a></h3>
+                <h3 class="email">Email: <a class="email" href="mailto:team@stimulating-solutions.com">team@stimulating-solutions.com</a></h3>
               </header>
             </article>
           </div>

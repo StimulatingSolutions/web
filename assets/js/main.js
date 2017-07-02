@@ -46,9 +46,9 @@
         var bannerBottom = banner.scrollTop() + banner.outerHeight() - header.outerHeight();
         // console.log(docScroll, banner.scrollTop(), banner.outerHeight(), header.outerHeight());
         if(docScroll >= bannerBottom ) {
-          $("#header").addClass('opaque');
+          header.addClass('opaque');
         } else {
-          $("#header").removeClass('opaque');
+          header.removeClass('opaque');
         }
       }, 50));
     });
@@ -86,7 +86,7 @@
     }, 800);
   };
 
-  var images = ['carrier1.jpg', 'carrier2.jpg', 'carrier3.jpg', 'carrier4.jpg', 'carrier5.jpg'];
+  var images = ['lightbulbs2.jpg','sky2.jpg'];
   var imagePos = Math.floor(Math.random() * images.length);
   var gradient = "5, 19, 41, 0.4";
   $('#banner').css({'background-image': 'linear-gradient(rgba('+gradient+'),rgba('+gradient+')),url(images/' + images[imagePos] + ')'});
