@@ -82,7 +82,7 @@
   scrollToId = function(toId) {
     target = $(toId);
     $('html, body').stop().animate({
-       scrollTop: target.offset().top
+       scrollTop: target.offset().top - $('#header').outerHeight() - $('section.wrapper.blur').outerHeight()*5
     }, 800);
   };
 
