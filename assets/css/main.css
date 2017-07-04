@@ -149,6 +149,13 @@ strong, b {
   font-size:1.2em;
 }
 
+li {
+  margin-left: 1.5em;
+}
+li strong, li b {
+  font-size:1em;
+}
+
 em, i {
   font-style: italic;
 }
