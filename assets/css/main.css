@@ -301,12 +301,99 @@ section.wrapper article header, article.wrapper article header {
   float: left;
 }
 */
+
 section.wrapper.bio img {
   float: left;
   margin: 0 20px 20px 0px;
   height: 151px;
   width: 151px;
 }
+
+section.wrapper.bio ul {
+  list-style: none;
+}
+section.wrapper.bio ul li {
+  padding: 0;
+  margin: 0;
+}
+
+section.wrapper.bio .short-list {
+  display: none;
+}
+section.wrapper.bio.title p.long-list {
+  display: block;
+}
+
+@media screen and (max-width: 1680px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+  section.wrapper.bio .short-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+  section.wrapper.bio .short-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+  section.wrapper.bio. .short-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+  section.wrapper.bio img {
+    float: none;
+  }
+  section.wrapper.bio .short-list {
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: -10px;
+  }
+  section.wrapper.bio p.long-list {
+    display: none;
+  }
+/*  section.wrapper.bio.title.align-left {
+    text-align: center;
+  }*/
+}
+
+@media screen and (max-width: 480px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+  section.wrapper.bio img {
+    float: none;
+  }
+  section.wrapper.bio.title.short-list li {
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: -10px;
+
+  }
+  section.wrapper.bio p.long-list {
+    display: none;
+  }
+/*  section.wrapper.bio.title.align-left {
+    text-align: center;
+  }*/
+}
+
 
 a.email, a.phone {
   display: inline-block;
@@ -326,10 +413,10 @@ footer#footer {
 section.wrapper.team-block, section.wrapper.team-block header h2 {
   color: #fff;
 }
-section.wrapper.team-block header p {
+section.wrapper.team-block header p, section.wrapper.team-block header ul {
   color: #bacee6;
 }
-section.wrapper.team-block header p {
+section.wrapper.team-block header p, section.wrapper.team-block header ul {
   margin-bottom: .5em;
   font-size: 1.25em;
 }
@@ -338,6 +425,18 @@ section.wrapper.team-block p:last-child {
 }
 section.wrapper.team-block h3 {
   color: #FFF;
+}
+
+@media screen and (max-width: 736px) {
+  section.wrapper.team-block header h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section.wrapper.team-block header h2 {
+    text-align: center;
+  }
 }
 
 
@@ -451,7 +550,7 @@ section.wrapper.company-summary {
 
 @media screen and (max-width: 736px) {
   section.wrapper header, article.wrapper header {
-    margin-bottom: 2em;
+    margin-bottom: 0;
   }
   section.wrapper header h2, article.wrapper header h2 {
     font-size: 2em;
@@ -459,14 +558,29 @@ section.wrapper.company-summary {
   section.wrapper header p, article.wrapper header p {
     font-size: .9em;
   }
+  article.company-bits ul, article.company-contact header {
+    text-align: left;
+  }
+  article.company-contact header h3 {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  section.wrapper header, article.wrapper header {
+    margin-bottom: 0;
+  }
   section.wrapper, article.wrapper {
     text-align: center;
   }
   section.wrapper article, article.wrapper article {
     text-align: center;
+  }
+  article.company-bits ul, article.company-contact header {
+    text-align: left;
+  }
+  article.company-contact header h3 {
+    font-size: 14px;
   }
 }
 
