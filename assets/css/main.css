@@ -1293,23 +1293,19 @@ h3.big {
 
 /* Footer */
 
-#footer .inner {
+#footer {
   border-top: 1px solid #dbdbdb;
-}
-
-#footer .copyright {
   color: #bbb;
   font-size: 0.8em;
-  margin: 0 0 0 .5em;
-  padding: 0;
+  padding: 0 .5em;
 }
 
-#footer .copyright a {
+#footer a {
   color: #bbb;
   text-decoration: none;
 }
 
-#footer .copyright a:hover {
+#footer a:hover {
   color: #bbb;
   text-decoration: underline;
 }
