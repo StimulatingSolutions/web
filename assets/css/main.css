@@ -446,8 +446,13 @@ section.wrapper.blur.bios-company {
   background: linear-gradient(to bottom, #032B4A, #FFFFFF);
 }
 section.wrapper.blur.company-contact {
+  background: linear-gradient(to bottom, #FFFFFF, #032B4A);
+}
+/*
+section.wrapper.blur.company-contact {
   background: linear-gradient(to bottom, #FFFFFF, #AAD 50%, #FFFFFF);
 }
+*/
 
 section.wrapper.company-summary header {
   margin-bottom: 2em;
