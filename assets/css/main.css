@@ -20,6 +20,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
+@font-face {
+  font-family: "TitleFont";
+  src: url(//assets/fonts/BebasNeue.otf) format("opentype");
+  font-weight: bold;
+}
+
+#banner h1 {
+  font-family: "TitleFont", sans-serif !important;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -316,10 +326,15 @@ a.email, a.phone {
 
 section.contact header, section.contact h3 {
   margin-bottom: 0;
+  color: #bacee6;
+}
+
+header .logo, section.contact h2, section.company-summary h2 {
+  font-family: "TitleFont", sans-serif !important;
 }
 
 footer#footer {
-  margin-top: 30px;
+  background: #032B4A;
 }
 
 
@@ -447,7 +462,18 @@ section.wrapper.company-summary article p {
 section.wrapper.company-summary {
   background: #FFFFFF;
 }
-
+section.wrapper.contact {
+  background-color: #032B4A;
+}
+section.wrapper.contact h2, section.wrapper.contact p {
+  color: #FFF;
+}
+section.wrapper.contact h2 {
+  color: #FFF;
+}
+section.wrapper.contact p {
+  color: #bacee6;
+}
 
 @media screen and (max-width: 736px) {
   section.wrapper header, article.wrapper header {
@@ -1226,7 +1252,7 @@ h3.big {
   margin-right: auto;
   width: auto;
   display: inline-block;
-  background: rgba(0,0,0, .5);
+  /*background: rgba(0,0,0, .5);*/
   border-radius: 2em;
 }
 
@@ -1294,19 +1320,19 @@ h3.big {
 /* Footer */
 
 #footer {
-  border-top: 1px solid #dbdbdb;
-  color: #bbb;
+  border-top: 1px solid #446;
+  color: #668;
   font-size: 0.8em;
   padding: 0 .5em;
 }
 
 #footer a {
-  color: #bbb;
+  color: #668;
   text-decoration: none;
 }
 
 #footer a:hover {
-  color: #bbb;
+  color: #668;
   text-decoration: underline;
 }
 
