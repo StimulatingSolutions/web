@@ -1376,3 +1376,36 @@ h3.big {
   font-size: 175%;
   font-weight: bold;
 }
+
+
+
+/**** skillmil ****/
+
+#skillmill {
+  width: 814px;
+  height: 670px;
+  text-align: center;
+  margin: auto;
+}
+
+#skillmill #mill {
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+#skillmill #mill span {
+  position: absolute;
+}
+
+#skillmill #info {
+  margin: auto;
+  position: relative;
+  top: 85px;
+}
+
+.rotisserie {
+  width: 150px;
+  height: 100px;
+}
+
