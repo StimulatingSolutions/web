@@ -22,7 +22,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 @font-face {
   font-family: "TitleFont";
-  src: url(//assets/fonts/BebasNeue.otf) format("opentype");
+  src: url(/assets/fonts/FontAwesome.otf) format("opentype");
   font-weight: bold;
 }
 
