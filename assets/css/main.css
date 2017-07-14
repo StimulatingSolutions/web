@@ -22,12 +22,22 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 @font-face {
   font-family: "TitleFont";
-  src: url(//assets/fonts/BebasNeue.otf) format("opentype");
+  src: url(../fonts/BebasNeue.otf) format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SubtitleFont";
+  src: url(../fonts/Montserrat-Regular.otf) format("opentype");
   font-weight: bold;
 }
 
 #banner h1 {
   font-family: "TitleFont", sans-serif !important;
+}
+
+#banner p, header #nav {
+  font-family: "SubtitleFont", sans-serif !important;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -416,8 +426,16 @@ section.contact header, section.contact h3 {
   color: #bacee6;
 }
 
-header .logo, section.contact h2, section.company-summary h2 {
+section.contact header h2, section.company-summary header h2 {
   font-family: "TitleFont", sans-serif !important;
+}
+
+header .logo, section.company-summary header p {
+  font-family: "SubtitleFont", sans-serif !important;
+}
+
+header .logo {
+  font-weight: bold;
 }
 
 footer#footer {
@@ -1130,13 +1148,12 @@ h3.big {
 }
 
 #header {
-  color: #d4e0ef;
+  color: #FFF;
   cursor: default;
   left: 0;
-  line-height: 3.25em;
   position: fixed;
   text-align: right;
-  padding: 0.5em 2em;
+  padding: 1em 2em;
   width: 100%;
   z-index: 10001;
   transition: background-color 300ms, border-bottom 300ms;
@@ -1161,33 +1178,47 @@ h3.big {
   font-weight: 600;
   height: inherit;
   left: 0;
-  line-height: inherit;
-  margin: 0;
-  padding: 0;
+  line-height: 1.8em;
   position: absolute;
   top: 0;
   font-size: 1.2em;
+  margin: 0 0 0 -0.25em;
+  padding: 0 0.5em;
 }
 
 #header a, #header span {
-  -moz-transition: color 0.2s ease-in-out;
-  -webkit-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
   display: inline-block;
-  padding: 0 0.75em;
+  padding: .25em 0.5em;
+  margin: 0 .25em;
   color: inherit;
   text-decoration: none;
   font-size: 1em;
   cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
 }
 
 #header a:hover, #header span:hover {
-  color: #ffffff;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#header.opaque a:hover, #header.opaque span:hover {
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #header a:last-child, #header span:last-child {
-  padding-right: 0;
+  margin-right: -0.25em;
 }
 
 #header a.navPanelToggle {
