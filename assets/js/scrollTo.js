@@ -80,7 +80,15 @@
   });
 
   scrollToId = function(toId) {
-    target = $(toId);
+    var id;
+    if (toId) {
+      id = '#'+toId;
+      history.pushState({}, 'Stimulating Solutions, LLC - '+toId, location.href.substr(0, location.href.indexOf('#'))+id);
+    } else {
+      id = '#top';
+      history.pushState({}, 'Stimulating Solutions, LLC', location.href.substr(0, location.href.indexOf('#')));
+    }
+    var target = $(id);
     $('html, body').stop().animate({
        scrollTop: target.offset().top - $('#header').outerHeight()
     }, 800);
