@@ -491,12 +491,19 @@ section.wrapper.blur {
 section.wrapper.blur.banner-services {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
-section.wrapper.blur.services-team {
-  background: linear-gradient(to bottom, #FFFFFF, #1B5B8C);
+section.wrapper.blur.services-discovery {
+  background: linear-gradient(to bottom, #FFFFFF, #032B4A);
+}
+section.wrapper.blur.discovery-team {
+  background: linear-gradient(to bottom, #032B4A, #1B5B8C);
 }
 section.wrapper.team-summary {
   background: #1B5B8C;
   color: #bacee6;
+}
+section.wrapper.discovery-summary {
+  background: #032B4A;
+  color: #FFF;
 }
 section.wrapper.blur.divider-team-bios {
   background: linear-gradient(to bottom, #1B5B8C, #5687AC);
@@ -1520,4 +1527,33 @@ h3.big {
 .card-name {
   font-size: 175%;
   font-weight: bold;
+}
+
+section.dark h2 {
+  color: #AAF;
+}
+
+section.dark strong {
+  color: #AAE;
+}
+
+section.dark a {
+  color: #88F;
+  cursor: pointer;
+  font-weight: 600;
+  font-size:1.2em;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+section.dark a:hover {
+  text-decoration: underline;
+  box-shadow: 0 0 15px 15px rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0 0 15px 15px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 0 0 15px 15px rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.spacer {
+  height: 300px;
 }
